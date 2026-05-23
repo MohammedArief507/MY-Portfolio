@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #F8FAFC;
     color: #0F172A;
 }
@@ -24,7 +24,7 @@ body{
 }
 .heading{
     font-weight: 800;
-    font-size: x-large;
+    font-size: 35px;
 }
 .lists{
     display: flex;
@@ -34,6 +34,7 @@ body{
     position: fixed;
     z-index: 1000;
     right: 25px;
+    font-family: serif;
     
 }
 .lists a{
@@ -207,7 +208,7 @@ body{
 .Skills h4{
     padding: 20px;
     border-radius: 25px;
-    background-color: #3B82F6;
+    background-color: #60A5FA;
     transition: 0.2s; 
 }
 .Skills h4:hover{
@@ -247,7 +248,7 @@ body{
 .cer h4{
     padding: 20px;
     border-radius: 25px;
-    background-color: #3B82F6;
+    background-color: #60A5FA;
     transition: 0.2s; 
 }
 

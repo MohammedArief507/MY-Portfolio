@@ -62,13 +62,13 @@ body{
 }
 #Home{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     
     
 }
 #About{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     /* background-color: #F5F7FA; */
 }
 #links{
@@ -308,12 +308,12 @@ body{
     border-radius: 25px;
     background-color: #60A5FA;
     transition: 0.1s; 
-    box-shadow: 6px 6px 0px 0px blue;
+    box-shadow: 6px 6px 0px 0px #1e90ff;
    
 }
 .cer h4:hover{
     transform: scaleY(1.2);
-    border: 3px solid darkblue;
+    border: 3px solid #1e90ff;
 }
 
 /* .projects{
@@ -397,6 +397,10 @@ body{
         border-radius: 10px;
         
     }
+    .contact3 textarea{
+        padding: 15px;
+        border-radius: 10px;
+    }
     .contact3 input:hover, .contact3 textarea:hover{
         border: 3px solid #1e90ff;
     }
@@ -414,6 +418,7 @@ body{
     padding: 5px;
     border-radius: 5px;
     background-color: #eaeff6;
+    color: #1e90ff;
 
 }
 .project1{
@@ -433,7 +438,7 @@ body{
         gap: 15px;
         padding: 20px;
     }
-
+    
     .lists {
         position: static;
         flex-wrap: wrap;
@@ -442,15 +447,20 @@ body{
         right: auto;
         margin: 0;
         width: 100%;
+        position: fixed;
+        z-index: 1000;
+        padding: 20px;
+        
     }
 
     .lists a {
         font-size: 0.95rem;
         padding: 8px 12px;
+        
     }
 
     .lists1 button {
-        margin-top: 0;
+        margin-top: 10px;
     }
 
     .home-objects,
@@ -462,7 +472,7 @@ body{
         text-align: center;
     }
    .aboutme{
-    padding-top: 80px;
+    padding-top: 100px;
    }
 
     .home-objects {
@@ -472,6 +482,7 @@ body{
     .contactlinks {
         gap: 20px;
     }
+    
 
     .Hleft,
     .Hright,
@@ -535,15 +546,25 @@ body{
     }
 
     .sk {
-        flex-direction: column;
-        gap: 15px;
-        padding-left: 0;
-    }
-
-    .Skills h4 {
         width: 100%;
         max-width: 520px;
-        margin: 0 auto 16px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .Skills {
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+    }
+
+    .skill-items {
+        gap: 15px;
+    }
+
+    .skill-items h4 {
+        padding: 12px 18px;
+        font-size: 0.9rem;
     }
 
     .project-card {
@@ -619,7 +640,34 @@ body{
     }
     .certificates{
         width: 300px;
-    } 
+    }
+    
+    .sk {
+        width: 300px;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .Skills {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 15px;
+    }
+
+    .sk h2 {
+        font-size: 1.2rem;
+    }
+
+    .skill-items {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .skill-items h4 {
+        padding: 10px 14px;
+        font-size: 0.85rem;
+    }
     
 }
 
